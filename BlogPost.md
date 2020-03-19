@@ -52,23 +52,26 @@ I think you should use an `<addr>` element here instead.
 
 **This text is _extremely_ important**
 
-## Code
+## Code Blocks
+### Javascript
 ```javascript
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
+}
+```
+### C#
+```csharp
+public class MyMessageHandler : IHandleMessages<MyMessage>
+{
+     public Task Handle(MyMessage message, IMessageHandlerContext context)
+     {
+         return Task.CompletedTask;
+     }
 }
 ```
 
-## Syntax highlighting
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
 # Todo list
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
