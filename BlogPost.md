@@ -33,7 +33,6 @@ _You **can** combine them_
 
 # Images
 ![GitHub Logo](https://avatars0.githubusercontent.com/u/2428993?s=60&u=64f8283b344c1aa4cc7e5e3826ea514e9b98f370&v=4)
-Format: ![Alt Text](url)
 
 # Links
 http://github.com - automatic! [GitHub](http://github.com)
@@ -47,6 +46,22 @@ As Kanye West said:
 # Inline code
 I think you should use an `<addr>` element here instead.
 
+# GitHub Flavored Markdown
+
+~~strikethrough~~
+
+**This text is _extremely_ important**
+
+## Code
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+## Syntax highlighting
 ```javascript
 function fancyAlert(arg) {
   if(arg) {
