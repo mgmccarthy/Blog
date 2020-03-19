@@ -32,7 +32,7 @@ _You **can** combine them_
    1. Item 3b
 
 # Images
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://avatars0.githubusercontent.com/u/2428993?s=60&u=64f8283b344c1aa4cc7e5e3826ea514e9b98f370&v=4)
 Format: ![Alt Text](url)
 
 # Links
