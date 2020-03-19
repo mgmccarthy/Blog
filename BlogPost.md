@@ -26,6 +26,8 @@ __This will also be bold__
 
 _You **can** combine them_
 
+~~strikethrough~~
+
 # Lists
 ## Unordered
 * Item 1
@@ -49,12 +51,6 @@ As Kanye West said:
 # Inline code
 I think you should use an `<addr>` element here instead.
 
-# GitHub Flavored Markdown
-
-~~strikethrough~~
-
-**This text is _extremely_ important**
-
 ## Code Blocks
 ### Javascript
 ```javascript
@@ -68,10 +64,10 @@ function fancyAlert(arg) {
 ```csharp
 public class MyMessageHandler : IHandleMessages<MyMessage>
 {
-     public Task Handle(MyMessage message, IMessageHandlerContext context)
-     {
-         return Task.CompletedTask;
-     }
+    public Task Handle(MyMessage message, IMessageHandlerContext context)
+    {
+        return Task.CompletedTask;
+    }
 }
 ```
 
