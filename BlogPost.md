@@ -8,6 +8,15 @@
 
 normal content
 
+# Images
+![GitHub Logo](https://avatars0.githubusercontent.com/u/2428993?s=60&u=64f8283b344c1aa4cc7e5e3826ea514e9b98f370&v=4)
+
+# Links
+http://github.com - automatic! [GitHub](http://github.com)
+
+# Auto-link URL
+http://www.github.com/
+
 # Emphasis
 *This text will be italic*
 _This will also be italic_
@@ -30,12 +39,6 @@ _You **can** combine them_
 1. Item 3
    1. Item 3a
    1. Item 3b
-
-# Images
-![GitHub Logo](https://avatars0.githubusercontent.com/u/2428993?s=60&u=64f8283b344c1aa4cc7e5e3826ea514e9b98f370&v=4)
-
-# Links
-http://github.com - automatic! [GitHub](http://github.com)
 
 # Blockquotes
 As Kanye West said:
@@ -83,6 +86,3 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
-
-#Auto-link URL
-http://www.github.com/
